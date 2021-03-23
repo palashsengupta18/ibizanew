@@ -1,0 +1,26 @@
+.SideBarOptions {
+  //   background-color: #fffeff;
+  background-color: fffeff;
+  flex: 0.8;
+}
+.sideBarOpt__collapse {
+  margin: 1rem;
+  cursor: pointer;
+}
+.sideBarOpt__search {
+  margin: 0rem 1rem;
+  position: relative;
+  input {
+    height: 2.4vw;
+    width: 100%;
+    outline-style: none;
+    font-size: 1vw;
+    padding: 0.5vw;
+    padding-left: 2vw;
+  }
+  .sideBarOpt__search-icon {
+    position: absolute;
+    top: 0.5vw;
+    left: 0.3vw;
+  }
+}

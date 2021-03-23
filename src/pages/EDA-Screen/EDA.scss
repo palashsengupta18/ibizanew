@@ -1,0 +1,329 @@
+.w-100 {
+  width: 100%;
+}
+
+.border-table {
+  border: 1px solid #ccc;
+}
+
+.p-responsive {
+  position: relative;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.btn-expand {
+  background: #23232e;
+  border: 1px solid #23232e;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.btn-expand:focus {
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.EDA__screen_tab--wrapper {
+  width: 100%;
+  position: relative;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  .react-tabs__tab--selected {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #23232e !important;
+    color: #fff !important;
+  }
+  .react-tabs__tab {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c2c2c;
+    cursor: pointer;
+    background: #aeaeae;
+    border: 1px solid #d5d4d4;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 12px !important;
+  }
+}
+
+.EDA__upload-Dataset {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+#file-upload {
+  position: absolute;
+  left: -9999px;
+}
+
+.datasetUploadForm {
+  display: flex;
+  height: 37px;
+}
+
+.datasetUploadForm label[for="file-upload"] {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #23232e;
+  cursor: pointer;
+  color: #fff;
+  width: 120px;
+  min-height: 37px;
+  border-bottom: 2px solid #23232e;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.datasetUploadForm label[for="file-upload"]:hover {
+  background: #3e81ab;
+}
+
+.datasetUploadForm #filename {
+  padding: 0.5em;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 37px;
+  white-space: nowrap;
+  color: #8d8585;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #d1d1d1;
+}
+
+.datasetUploadForm .fileUploadIcon {
+  margin-right: 5px;
+}
+
+.EDA__tabpanel-tab {
+  border-top: 0;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+}
+
+.EDA__tab-body {
+  margin-top: 25px;
+}
+
+.EDA__com_title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+
+  i {
+    font-weight: 600;
+  }
+
+  i.fa-check-circle {
+    color: #20ee51;
+  }
+}
+
+.EDA__com_body {
+  font-size: 14px;
+  padding: 20px 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 5px;
+  min-height: 214px;
+
+  // &:hover {
+  //   box-shadow: none;
+  // }
+}
+
+.collapsible__i {
+  color: #20ee51;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#show__taeget--column {
+  display: none;
+  width: 100%;
+  font-size: 12px;
+  border-left: 3px solid #ccc;
+  padding-left: 10px;
+}
+
+#show__taeget--column2 {
+  display: none;
+  width: 100%;
+  font-size: 12px;
+  border-left: 3px solid #ccc;
+  padding-left: 10px;
+}
+
+.item__MRP--modal_expand {
+  max-width: 70%;
+
+  .modal-header {
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+
+    button.close {
+      padding-top: 26px;
+      padding-bottom: 0;
+      z-index: 1;
+    }
+  }
+  .modal-body {
+    padding: 0 25px 25px 25px;
+  }
+}
+
+.item__MRP--modal {
+  max-width: 80%;
+
+  .modal-header {
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+
+    button.close {
+      padding-top: 26px;
+      padding-bottom: 0;
+      z-index: 1;
+    }
+  }
+  .modal-body {
+    padding: 0 25px 25px 25px;
+  }
+}
+
+// Univeriate Tab
+.univariate__tab--wrapper {
+  .univariate__tabList {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    // align-items: center;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+
+    .react-tabs__tab--selected {
+      color: #23232e !important;
+      background-color: transparent !important;
+      font-weight: 700;
+    }
+
+    .react-tabs__tab {
+      border: 0;
+      background: transparent;
+      padding: 5px 0 5px 0 !important;
+
+      &:hover {
+        color: #23232e !important;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.univariate__tabPanel--wrapper {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.univariate__variable--details {
+  background: #f1eff1;
+  padding: 10px 20px;
+  border: 1px solid #d1d1d1;
+
+  p {
+    margin-bottom: 5px;
+  }
+}
+
+.bivariate__tabPanel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 300px;
+}
+
+.eda__chart--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  min-height: 300px;
+  position: relative;
+}
+
+.loading {
+  height: 120px;
+  padding: 0px;
+  width: 160px;
+  border-left: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 10px;
+  box-sizing: border-box;
+}
+@keyframes loading {
+  0% {
+    background-color: #cd0a00;
+  }
+
+  30% {
+    background-color: #fa8a00;
+  }
+  50% {
+    height: 100px;
+    margin-top: 0px;
+  }
+  80% {
+    background-color: #91d700;
+  }
+  100% {
+    background-color: #cd0a00;
+  }
+}
+
+@mixin inner() {
+  height: 10px;
+  width: 30px;
+  background-color: #fff;
+  display: inline-block;
+  margin-top: 90px;
+  -webkit-animation: loading 2.5s infinite;
+  -moz-animation: loading 2.5s infinite;
+  -o-animation: loading 2.5s infinite;
+  animation: loading 2.5s infinite;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+@mixin loading() {
+  @for $i from 1 through 10 {
+    .loading-#{$i} {
+      @include inner();
+      -webkit-animation-delay: $i/4 + s;
+      animation-delay: $i/4 + s;
+    }
+  }
+}
+.loading {
+  @include loading();
+}
